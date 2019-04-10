@@ -1,0 +1,23 @@
+/*快级元素*/
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt/*(行内元素)*/{margin:0;padding:0;border:0;list-style:none;
+font-size:12px;font-family:微软雅黑;color:#ccc;}
+/*行内元素*/
+span,a{text-decoration:none;color:#ccc;}
+/*行内快元素*/
+img,input{vertical-align:middle;margin:0;padding:0;border:0 none;outline-style:none;/*input的轮廓线*/}
+/*a标签点击事件*/
+a:link{color:#009;} 
+a:visited{color:#800080;} 
+a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
+/*清除浮动*/
+.clearfix:after{
+	content:"";
+	height:0;
+	line-height:0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix{zoom:1;}
+/*版心*/
+.w{width:500px;margin:0 auto;}
